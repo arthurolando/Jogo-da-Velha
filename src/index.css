@@ -4,8 +4,26 @@
 
 body {
   font-family: sans-serif;
-  margin: 0;
-  padding: 20px;
+}
+
+.game {
+  margin: 20px;
+  display: flex;
+}
+
+.game-info{
+  margin: 10px;
+}
+
+.game-info li{
+  margin: 10px;
+}
+
+.game-info li button {
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 3px;
 }
 
 .square {
